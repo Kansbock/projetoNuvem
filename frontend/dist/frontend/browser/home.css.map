@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["src/app/home/home.scss"],
-  "sourcesContent": [".homepage {\n    padding: 2%;\n}\n"],
-  "mappings": ";AAAA,CAAA;AACI,WAAA;;",
-  "names": []
-}
