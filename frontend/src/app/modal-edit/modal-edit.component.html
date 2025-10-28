@@ -1,0 +1,41 @@
+<h2 mat-dialog-title>{{ isEditing ? 'Editar Aluno' : 'Adicionar Aluno' }}</h2>
+
+<mat-dialog-content>
+  <div class="form-container">
+
+    <mat-form-field appearance="outline" class="full-width">
+      <mat-label>Nome</mat-label>
+      <input matInput [(ngModel)]="aluno.name" placeholder="Digite o nome" required>
+    </mat-form-field>
+
+    <mat-form-field appearance="outline" class="full-width">
+      <mat-label>Endereço</mat-label>
+      <input matInput [(ngModel)]="aluno.address" placeholder="Digite o endereço" required>
+    </mat-form-field>
+
+    <mat-form-field appearance="outline" class="full-width">
+      <mat-label>Cidade</mat-label>
+      <input matInput [(ngModel)]="aluno.city" placeholder="Digite a cidade" required>
+    </mat-form-field>
+
+    <mat-form-field appearance="outline" class="full-width">
+      <mat-label>Estado</mat-label>
+      <input matInput [(ngModel)]="aluno.state" placeholder="Digite o estado" required>
+    </mat-form-field>
+
+    <mat-form-field appearance="outline" class="full-width">
+      <mat-label>Email</mat-label>
+      <input matInput [(ngModel)]="aluno.email" type="email" placeholder="Digite o email" required>
+    </mat-form-field>
+
+    <mat-form-field appearance="outline" class="full-width">
+      <mat-label>Telefone</mat-label>
+      <input matInput [(ngModel)]="aluno.phone" placeholder="Digite o telefone" required>
+    </mat-form-field>
+  </div>
+</mat-dialog-content>
+
+<mat-dialog-actions align="end">
+  <button mat-button (click)="onCancel()">Cancelar</button>
+  <button mat-raised-button color="primary" (click)="onSave()">Salvar</button>
+</mat-dialog-actions>

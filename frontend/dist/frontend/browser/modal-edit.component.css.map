@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/modal-edit/modal-edit.component.scss"],
+  "sourcesContent": [".form-container {\n  display: flex;\n  flex-direction: column;\n  min-width: 400px;\n  gap: 16px;\n}\n\n.full-width {\n  width: 100%;\n}\n\nmat-dialog-content {\n  padding: 20px;\n}\n\nmat-dialog-actions {\n  padding: 0 20px 20px 20px;\n  gap: 10px;\n}"],
+  "mappings": ";AAAA,CAAA;AACE,WAAA;AACA,kBAAA;AACA,aAAA;AACA,OAAA;;AAGF,CAAA;AACE,SAAA;;AAGF;AACE,WAAA;;AAGF;AACE,WAAA,EAAA,KAAA,KAAA;AACA,OAAA;;",
+  "names": []
+}
